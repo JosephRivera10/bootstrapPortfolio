@@ -124,12 +124,12 @@ h3 {
   border-top: 8px solid #4aaaa5;
 }
 
-@media (min-width: 770px) { 
+@media screen and (max-width: 768px) { 
   .main-section {
     margin-bottom: 30px;
   }
 }
-@media (min-width: @screen-sm-min) { 
+@media screen and (max-width: 576px) { 
   .main-section {
     margin-bottom: 20px;
   }
